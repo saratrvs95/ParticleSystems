@@ -1,2 +1,4 @@
 # ParticleSystems
-Welcome to the ParticleSystems project! So to launch this project, you'll need to head on over to LearnOpenGL's code repository, download their solution and follow their setup instructions. Once the setup is done you can add this project to their solution and launch it in Win32. x64 was not supported by LearnOpenGL repo at the time of building this so i didn't take that into account
+This repo contains only the project files and the required source files.
+To launch this project download and setup the LearnOpenGL repo(link in the Wiki)
+Add this project folder to their solution, and you should have it up and running.
