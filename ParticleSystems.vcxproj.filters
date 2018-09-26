@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Interfaces and helpers">
+      <UniqueIdentifier>{d384d4b5-08b1-475f-a784-2bbca0f0031a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particle Subsystems">
+      <UniqueIdentifier>{643a4d72-4863-4eea-a1c1-5afa4ad03573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{3a8880e1-c7ca-486f-b5e3-fb5b2a872182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{2a5615b7-0aff-47de-80b0-0500546e90c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolator.h">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ElapsedTime.h">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PointEmitter.h">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneEmitter.h">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="EmissionType.h">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereEmitter.h">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Interpolator.inl">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </None>
+    <None Include="Content\Shaders\vertex_shader.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\fragment_shader.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\geometry_shader.gs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ElapsedTime.cpp">
+      <Filter>Source Files\Interfaces and helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PointEmitter.cpp">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffect.cpp">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneEmitter.cpp">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereEmitter.cpp">
+      <Filter>Source Files\Particle Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
